@@ -10,7 +10,7 @@
 }
 
 
-#erropass1, #erropass2, #errorpas1, #errorpas2, #errortUser, #erroeUser{
+#erroImage, #erropass1, #erropass2, #errorpas1, #errorpas2, #errortUser, #erroeUser{
     color: red;
     display: none;
 }
