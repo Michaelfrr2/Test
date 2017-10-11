@@ -56,7 +56,8 @@
           </div>
           <div class="form-group">
             <label for="Foto">Imagen</label>
-    <input type="file" class="form-control-file required" id="Foto" name="Foto" >
+           <input type="file" class="form-control-file required" id="Foto" name="Foto" >
+           <label for="Foto" id="erroImage">Solo es permitido archivos .jpg y .png</label>
           </div>
 
 
