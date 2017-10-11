@@ -16,6 +16,12 @@ $(document).ready(function(){
         
         var fileType = file.type;
        
+       if ((fileType != "image/jpeg")&&(fileType != "image/png")) {
+            $('#erroImage').css('display','block');
+            $('#enviar').attr("disabled", true);
+            console.log(fileType);
+        }else{$('#enviar').attr("disabled", false);$('#erroImage').css('display','none');};
+       
     	
     });
 
